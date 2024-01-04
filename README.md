@@ -14,3 +14,4 @@ RDS Operations with Terraform & Ansible: MariaDB Edition
 * *chapter09* - Creating a DBA Dashboard in AWS Cloudwatch.
 * *chapter10* - Creating a Blue/Green Deploment for Database Updates.
 * *chapter11* - Creating a Private DNS Zone for your MariaDB Installation.
+* *chapter12* - Migrating an RDS MariaDB Instance to a Self-Hosted Computer.
