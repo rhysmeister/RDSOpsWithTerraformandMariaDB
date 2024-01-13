@@ -4,6 +4,12 @@ RDS Operations with Terraform & Ansible: MariaDB Edition
 # Table Of Contents
 
 * *chapter01* - Setup your AWS Account.
+  * Creating an AWS Account.
+  * Securing an AWS Account.
+  * Creating an admin user.
+  * Creating a Budget.
+  * Creating Access Keys.
+  * Setting up the AWS CLI.
 * *chapter02* - Create a VPC for your RDS Projects.
 * *chapter03* - Setting up the DBA Jump Host.
 * *chapter04* - Deploying a Multi-AZ MariaDB Instance.
@@ -14,4 +20,4 @@ RDS Operations with Terraform & Ansible: MariaDB Edition
 * *chapter09* - Creating a DBA Dashboard in AWS Cloudwatch.
 * *chapter10* - Creating a Blue/Green Deploment for Database Updates.
 * *chapter11* - Creating a Private DNS Zone for your MariaDB Installation.
-* *chapter12* - Migrating an RDS MariaDB Instance to a Self-Hosted Computer.
+* *chapter12* - Migrating an RDS MariaDB Instance to a Self-Hosted Server.
