@@ -34,7 +34,7 @@ resource "aws_subnet" "private_subnet2" {
 resource "aws_subnet" "private_subnet3" {
   vpc_id                          = aws_vpc.vpc.id
   availability_zone               = data.aws_availability_zones.available_azs.names[2]
-  cidr_block                      = "10.0.3.0/24"
+  cidr_block                      = "10.0.4.0/24"
   assign_ipv6_address_on_creation = false
 
   tags = {
