@@ -5,6 +5,10 @@ terraform {
       version = "~>5.31.0"
     }
   }
+
+  backend "s3" {
+    key    = "rdsops/rds_vpc/terraform.tfstate"
+  }
 }
 
 provider "aws" {
@@ -17,3 +21,4 @@ provider "aws" {
     }
   }
 }
+
