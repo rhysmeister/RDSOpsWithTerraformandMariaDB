@@ -1,0 +1,16 @@
+#cloud-config
+users:
+  - default
+  - name: dba
+    groups: users
+    sudo: ALL=(ALL) NOPASSWD:ALL
+
+packages:
+  - git
+  - mariadb105
+  - python3-pip
+
+runcmd:
+  - yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+  - pip install ansible
+  - sudo -u dba bash -c 'cd /home/dba && git clone https://github.com/rhysmeister/RDSOpsWithTerraformandMariaDB.git'
