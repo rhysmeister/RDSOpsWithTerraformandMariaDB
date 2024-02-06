@@ -26,3 +26,8 @@ output "mariadb_security_group_id" {
   value       = aws_security_group.mariadb.id
   description = "The SG id for the MariaDB Security Group"
 }
+
+output "rds_subnet_group" {
+  value = aws_db_subnet_group.rds_subnet_group.id
+  description = "The id for the DB Subnet Group"
+}
